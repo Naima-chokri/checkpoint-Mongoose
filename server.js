@@ -34,19 +34,19 @@ Person.create([
         name:"Person_1",
         age:34,
         email: "Person_1@outlook.fr",
-        favoriteFoods:["favFoodFour","favFoodFive"]
+        favoriteFoods:["Food1","Food2"]
     },
     {
         name:"Person_2",
         age:43,
         email: "Person_2@outlook.fr",
-        favoriteFoods:["favFoodSix","favFoodSeven"]
+        favoriteFoods:["Food3","Food4"]
     },
     {
         name:"Person_3",
         age:19,
         email: "Person_3@outlook.fr",
-        favoriteFoods:["favFoodEight","favFoodNine"]
+        favoriteFoods:["Food5","Food6"]
     }
 ]).then(res => {console.log(res)})
 //---------------------------------------
@@ -64,7 +64,6 @@ Person.findById('62c2e525b6faa5e0dd75a80e').then(res => {console.log(res)})
 //---------------------------------------
 // Perform Classic Updates by Running Find, Edit, then Save
 //---------------------------------------
-
 
 //---------------------------------------
 // Perform New Updates on a Document Using model.findOneAndUpdate()
